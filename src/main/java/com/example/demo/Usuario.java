@@ -14,7 +14,7 @@ public class Usuario{
     private String nombre;
     private String paswd;
     private String segundoNombre;
-    private Date fechaCase;
+    private Date fechaCese;
     private String dni;
     private String nombreCompleto;
 
@@ -106,12 +106,12 @@ public class Usuario{
         this.segundoNombre = segundoNombre;
     }
 
-    public Date getFechaCase() {
-        return fechaCase;
+    public Date getFechaCese() {
+        return fechaCese;
     }
 
-    public void setFechaCase(Date fechaCase) {
-        this.fechaCase = fechaCase;
+    public void setFechaCese(Date fechaCese) {
+        this.fechaCese = fechaCese;
     }
 
     public String getDni() {
